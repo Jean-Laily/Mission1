@@ -1,0 +1,55 @@
+/* Algo en français
+*DEBUT
+*
+*initialisation des variables
+*	
+*AFFICHER entrer une nombre entier
+*faire
+	si nombreSaisi est dif a 0 alors
+
+*jusqu'a	
+*dernierSaisi prend la tabValeur de positionI
+
+*AFFICHER compteur + "nombre saisi"
+*AFFICHER "Compris entre " 1erSaisi " et " dernierSaisi
+*AFFICHER "Pour une somme de " nombreTotal
+*AFFICHER "Et une moyenne de " moyenne prend nombreTotal / dernierSaisi
+
+*FIN 
+*/
+
+
+
+
+*** ///////////////// Algo de Statistique \\\\\\\\\\\\\\\\\\\\
+DEBUT
+*** initialisation des variables
+*** variablesde type NUM
+saisi <- lireClav 
+compteur <- 0 
+nbTotal <- 0
+posI <- 0
+premierSaisi <- 0
+dernierSaisi <- 0
+moyenne <- 0
+
+*** variables de type String
+AFFICHER <- console.log(texte)
+
+*** debut du programme
+AFFICHER "entré un nombre entier : "
+FAIRE
+
+	AFFICHER "vous venez d'entrer le nombre : "+tabValeur[i]
+	compteur <- compteur +1
+	premierSaisi <- tabValeur[0]
+	posI <- i
+	nbTotal <- nbTotal + tabValeur[i]
+JUSQU'A 
+	dernierSaisi <- tabValeur[posI]
+
+AFFICHER compteur+" nombre de saisi"
+AFFICHER "Compris entre "+premierSaisi+" et "+dernierSaisi
+AFFICHER "Pour une somme de "+nbTotal
+AFFICHER "Et uen moyenne de "+moyenne <- (nbTotal/dernierSaisi)
+
